@@ -2123,7 +2123,7 @@ dependencies = [
  "hyper-tungstenite",
  "moka",
  "rand 0.8.5",
- "rcgen 0.10.0",
+ "rcgen 0.13.2",
  "thiserror",
  "time",
  "tokio",
@@ -4101,19 +4101,6 @@ name = "raw-window-handle"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2ff9a1f06a88b01621b7ae906ef0211290d1c8a168a15542486a8f61c0833b9"
-
-[[package]]
-name = "rcgen"
-version = "0.10.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ffbe84efe2f38dea12e9bfc1f65377fdf03e53a18cb3b995faedf7934c7e785b"
-dependencies = [
- "pem 1.1.1",
- "ring 0.16.20",
- "time",
- "x509-parser 0.14.0",
- "yasna",
-]
 
 [[package]]
 name = "rcgen"
