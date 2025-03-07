@@ -28,7 +28,7 @@ unrar = "0.4.4" # No updates available
 sevenz-rust = "0.2.2" # No updates available
 lazy_static = "1.4.0" # No updates available
 hudsucker = { version = "0.19.2", features = ["rustls-client"] }
-rcgen = { version = "0.10.4", features = ["x509-parser"] }
+rcgen = { version = "0.13.2", features = ["x509-parser"] }
 rustls-pemfile = "1.0.2"
 sysproxy = "0.2.2"
 open = "3.2.0"
