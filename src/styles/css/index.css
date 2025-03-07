@@ -1,0 +1,10 @@
+@import './common.css';
+/* @import './naive-ui.scss'; */
+@import './reset.css';
+
+html,
+body,
+#app {
+  /* scrollbar-gutter: stable; */
+  overflow-y: overlay;
+}
